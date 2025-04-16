@@ -120,6 +120,7 @@ impl<T> Index<usize> for NonEmptyMutSlice<'_, T> {
 }
 
 /// A string slice that is known to be non-empty
+#[derive(Debug, Clone, Copy)]
 pub struct NonEmptyStr<'a> {
     str: &'a str,
 }
