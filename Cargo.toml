@@ -1,9 +1,9 @@
 [package]
 name = "nonempty"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 authors = [
-    "Mearkatz <drquinsey@gmail.com>",
+  "Mearkatz <drquinsey@gmail.com>",
 ]
 description = ""
 
